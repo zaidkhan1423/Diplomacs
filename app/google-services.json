@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "77869599290",
+    "project_id": "diplomacs-db4d4",
+    "storage_bucket": "diplomacs-db4d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77869599290:android:fe0bad6a435ff9b3ed8303",
+        "android_client_info": {
+          "package_name": "com.example.diplomacs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77869599290-nh1m4a2vp2qobbhtfa6kbapoqclvl9jd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF39KOxrILpj-JIfjtvMQc8r7EBDwnQ_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "77869599290-nh1m4a2vp2qobbhtfa6kbapoqclvl9jd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
