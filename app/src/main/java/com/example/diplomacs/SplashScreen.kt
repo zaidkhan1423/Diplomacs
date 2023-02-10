@@ -18,7 +18,7 @@ class SplashScreen : AppCompatActivity() {
         // for intent splash activity to main activity with some transition.
         logo.alpha = 0f
         logo.animate().setDuration(2000).alpha(1f).withEndAction {
-            var intent = Intent(this,SignUpActivity::class.java)
+            var intent = Intent(this,SignInActivity::class.java)
             startActivity(intent)
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
             finish()
