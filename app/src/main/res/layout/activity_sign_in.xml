@@ -4,19 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_image_signup"
-    tools:context=".SignInActivity">
+    android:background="@color/white"
+    tools:context=".Activity.SignInActivity">
+
+    <ImageView
+        android:layout_width="178dp"
+        android:layout_height="149dp"
+        android:src="@drawable/leaf1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:layout_width="205dp"
+        android:layout_height="300dp"
+        android:src="@drawable/leaf2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="116dp"
         android:text="Welcome\nBack"
         android:textColor="@color/green"
         android:textSize="35dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintHorizontal_bias="0.133"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
